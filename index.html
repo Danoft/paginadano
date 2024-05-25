@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatInteligente</title>
+    <script src="https://cdn.jsdelivr.net/npm/groq-sdk@latest/dist/groq.min.js"></script>
+    <link rel="shortcut icon" href="img/www.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Acerca de</a>
+            <a href="#">Portafoli</a>
+            <a href="#">Servicios</a>
+            <a href="#">Contactos</a>
+        </nav>
+        <section class="textos-header">
+            <h1>Una herramienta para facilitar tu vida</h1>
+            <h2>Caht Inteligente</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.85 C150.00,149.60 349.20,-49.85 500.00,49.85 L500.00,149.60 L0.00,149.60 Z" style="stroke: none; fill: hsl(0, 0%, 100%)(208 0% 0%);"></path></svg></div>
+    </header>
+    <main>
+            <section>
+                <div class="chat-container">
+                    <div id="chatbox">
+                        <div class="bot-message">Hola, soy tu asistente virtual. ¿En qué puedo ayudarte hoy?</div>
+                    </div>
+                    <input type="text" id="userInput" placeholder="Escribe tu mensaje..." autofocus>
+                    <button onclick="sendMessage()">Enviar</button>
+                </div>
+            </section>
+        <section class="contenedor sobre- nosotros">
+        <h2 class="titulo">Nuestro Producto</h2>
+        <div class="contenedor-sobre-nosotros">
+           <img src="img/aa.jpg" alt=""class="imagen-about-us"> 
+           <div class="contenido-textos">
+            <h3><span>1</span>La mejor IA</h3>
+            <p>Chat Inteligente puede proporcionar soporte técnico y responder preguntas en una amplia variedad de temas. Es útil para resolver problemas técnicos básicos, explicar conceptos complejos de manera sencilla y proporcionar guías paso a paso. </p>
+            <h3><span>2</span>Usos</h3>
+            <p>Si tienes problemas con algún software, puedes describir el problema a Chat Inteligente y obtener posibles soluciones. También es útil para responder preguntas generales sobre cualquier tema, desde ciencia hasta historia, proporcionando información rápida y precisa basada en su entrenamiento con una gran cantidad de datos.</p>
+            </div>
+        </div>
+    </section>
+    <section class="clientes contenedor">
+        <h2 class="titulo">Que dicen nuestros clientes</h2>
+        <div class="card">
+            <div class="card">
+                <img src="img/pp.jpg" alt="">
+                <div class="contenido-texto-card">
+                    <h4>Diana</h4>
+                    <p>"Como estudiante universitaria, Chat Inteligente ha sido una herramienta increíblemente útil para mis estudios. Lo utilizo para obtener explicaciones claras sobre conceptos complejos, redactar ensayos y realizar investigaciones rápidas. Me ha ayudado a ahorrar tiempo y a mejorar la calidad de mi trabajo académico. Chat Inteligente se ha convertido en mi asistente de estudio favorito, y no puedo imaginar cómo serían mis tareas sin su ayuda."</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/OIP.jpg" alt="">
+                <div class="contenido-texto-card">
+                    <h4>Odegard</h4>
+                    <p>"Como profesional de tecnología, he encontrado que Chat Inteligente es una herramienta revolucionaria en el campo de la inteligencia artificial. He utilizado Chat Inteligente para desarrollar contenido, asistir en la programación y proporcionar soporte técnico. La flexibilidad y precisión con la que puede manejar diferentes temas lo convierte en una herramienta indispensable para cualquier profesional del sector. Estoy particularmente impresionado por su capacidad para adaptarse a diferentes estilos de escritura y su comprensión contextual, lo que mejora significativamente la eficiencia en tareas diarias."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-services">
+        <div class="contenedor">
+            <h2 class="titulo">Nuestros servicios</h2>
+            <div class="servicio-cont">
+                <div class="servicio-ind">
+                    <img src="img/descarga.jpg" alt="">
+                    <h3>Name</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, cumque.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+    <footer>
+       <div class="contenedor-footer">
+        <div class="content-foot">
+            <h4>Celular</h4>
+            <p>2287135278</p>
+        </div>
+        <div class="content-foot">
+            <h4>Correro Electronico</h4>
+            <p>Chat@email.com</p>
+        </div>
+        <div class="content-foot">
+            <h4>Lugar</h4>
+            <p>UV-FIEE-F23</p>
+        </div>
+       </div>
+       <h2 class="Titulo-final">&copy; Daniel Licea Alcaraz</h2> 
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
